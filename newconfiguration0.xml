@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE traces SYSTEM "newconfiguration0.dtd">
+<traces>
+	<trace id="ATG_Conf0.trace22" number="22" comparestr="ATG_Conf0;0|1.0|0.0|2">
+		<MC id="MC_22_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsTC_at_pN2_sensor_of_Uc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					call_reqGet_acquiredData_via_pN2_sensor
+				</name>
+				<fqrn>
+					&quot;;;TC_at_pN2_sensor_of_Uc_EDP_lowpress;;call_reqGet_acquiredData_via_pN2_sensor&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<ES id="ES_22_1" direction="output" timestr="(00:00:000)">
+			<sender is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsTC_at_pN2_sensor_of_Uc_EDP_lowpress
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<event>
+				<name>
+					reqGet_acquiredData
+				</name>
+				<fqrn>
+					&quot;;;reqGet_acquiredData;;reqGet_acquiredData&quot;.&quot;void&quot;
+				</fqrn>
+			</event>
+		</ES>
+		<MR idref="*" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace1" number="1" comparestr="ATG_Conf0;0|1.0|0.0|3">
+		<MC id="MC_1_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsTC_at_ppress_sensor_of_Uc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					call_reqGet_acquiredData_via_ppress_sensor
+				</name>
+				<fqrn>
+					&quot;;;TC_at_ppress_sensor_of_Uc_EDP_lowpress;;call_reqGet_acquiredData_via_ppress_sensor&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<ES id="ES_1_1" direction="output" timestr="(00:00:000)">
+			<sender is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsTC_at_ppress_sensor_of_Uc_EDP_lowpress
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<event>
+				<name>
+					reqGet_acquiredData
+				</name>
+				<fqrn>
+					&quot;;;reqGet_acquiredData;;reqGet_acquiredData&quot;.&quot;void&quot;
+				</fqrn>
+			</event>
+		</ES>
+		<MR idref="*" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace2" number="2" comparestr="ATG_Conf0;0|1.0|0.0|4">
+		<MC id="MC_2_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsTC_at_pWheelLoad_of_Uc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					call_reqGet_acquiredData_via_pWheelLoad
+				</name>
+				<fqrn>
+					&quot;;;TC_at_pWheelLoad_of_Uc_EDP_lowpress;;call_reqGet_acquiredData_via_pWheelLoad&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<ES id="ES_2_1" direction="output" timestr="(00:00:000)">
+			<sender is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsTC_at_pWheelLoad_of_Uc_EDP_lowpress
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<event>
+				<name>
+					reqGet_acquiredData
+				</name>
+				<fqrn>
+					&quot;;;reqGet_acquiredData;;reqGet_acquiredData&quot;.&quot;void&quot;
+				</fqrn>
+			</event>
+		</ES>
+		<MR idref="*" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace3" number="3" comparestr="ATG_Conf0;0|1.0|0.0|1.0|0">
+		<MC id="MC_3_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					EDP_pressLow
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;EDP_pressLow&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_3_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace4" number="4" comparestr="ATG_Conf0;0|1.0|0.0|1.0|1">
+		<MC id="MC_4_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					EDP_pressNotLow
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;EDP_pressNotLow&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_4_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace5" number="5" comparestr="ATG_Conf0;0|1.0|0.0|1.0|2">
+		<MC id="MC_5_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					get_acquiredData
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;get_acquiredData&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_5_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace6" number="6" comparestr="ATG_Conf0;0|1.0|0.0|1.0|3">
+		<MC id="MC_6_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_0
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_0&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_6_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace7" number="7" comparestr="ATG_Conf0;0|1.0|0.0|1.0|4">
+		<MC id="MC_7_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_1
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_1&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_7_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace8" number="8" comparestr="ATG_Conf0;0|1.0|0.0|1.0|5">
+		<MC id="MC_8_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_10
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_10&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_8_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace9" number="9" comparestr="ATG_Conf0;0|1.0|0.0|1.0|6">
+		<MC id="MC_9_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_12
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_12&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_9_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace10" number="10" comparestr="ATG_Conf0;0|1.0|0.0|1.0|7">
+		<MC id="MC_10_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_13
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_13&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_10_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace11" number="11" comparestr="ATG_Conf0;0|1.0|0.0|1.0|8">
+		<MC id="MC_11_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_14
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_14&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_11_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace12" number="12" comparestr="ATG_Conf0;0|1.0|0.0|1.0|9">
+		<MC id="MC_12_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_16
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_16&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_12_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace13" number="13" comparestr="ATG_Conf0;0|1.0|0.0|1.0|10">
+		<MC id="MC_13_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_17
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_17&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_13_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace14" number="14" comparestr="ATG_Conf0;0|1.0|0.0|1.0|11">
+		<MC id="MC_14_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_18
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_18&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_14_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace15" number="15" comparestr="ATG_Conf0;0|1.0|0.0|1.0|12">
+		<MC id="MC_15_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_2
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_2&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_15_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace16" number="16" comparestr="ATG_Conf0;0|1.0|0.0|1.0|13">
+		<MC id="MC_16_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_4
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_4&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_16_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace17" number="17" comparestr="ATG_Conf0;0|1.0|0.0|1.0|14">
+		<MC id="MC_17_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_5
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_5&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_17_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace18" number="18" comparestr="ATG_Conf0;0|1.0|0.0|1.0|15">
+		<MC id="MC_18_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_6
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_6&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_18_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace19" number="19" comparestr="ATG_Conf0;0|1.0|0.0|1.0|16">
+		<MC id="MC_19_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_8
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_8&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_19_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace20" number="20" comparestr="ATG_Conf0;0|1.0|0.0|1.0|17">
+		<MC id="MC_20_1" direction="input" timestr="(00:00:000)">
+			<sender is_class="1" instance="0">
+				OMThreadEnv
+			</sender>
+			<receiver is_class="1" instance="-1">
+				TCon_Uc_EDP_lowpress.itsUc_EDP_lowpress
+			</receiver>
+			<call>
+				<name>
+					message_9
+				</name>
+				<fqrn>
+					&quot;;;Uc_EDP_lowpress;;message_9&quot;.&quot;void&quot;
+				</fqrn>
+			</call>
+		</MC>
+		<MR idref="MC_20_1" type="void" is_pointer="0" timestr="(00:00:000)"/>
+	</trace>
+	<trace id="ATG_Conf0.trace21" number="21" comparestr="ATG_Conf0;0|1.0|1">
+		<TP>
+			100
+		</TP>
+	</trace>
+</traces>
